@@ -1,8 +1,11 @@
 ## Hi there 👋
 
+Welcome to here!
+
 # VersionFox
 
-Welcome to VersionFox, a cross-platform SDK version manager with a simple command-line interface. VersionFox allows you to swiftly install and switch between different SDK versions using Lua scripts as plugins.
+**`vfox` is a cross-platform tool for managing SDK versions, extendable via plugins**. It allows you to quickly install
+and switch between different versions of SDKs using the command line.
 
 ## Why use VersionFox?
 
@@ -13,10 +16,11 @@ Welcome to VersionFox, a cross-platform SDK version manager with a simple comman
 - simple **plugin system** to add support for your language of choice
 - **automatically switches** runtime versions as you traverse your project
 - shell completion available for common shells (Bash, Zsh, Powershell)
-- **it's faster than `asdf-vm`, and offers more simple commands and genuine cross-platform unification.** see [What-is-the-difference-with-asdf?](https://github.com/version-fox/vfox/wiki/What-is-the-difference-with-asdf%3F)
-
+- **it's faster than `asdf-vm`, and offers more simple commands and genuine cross-platform unification.**
+  see [Comparison with asdf](https://vfox.lhan.me/misc/vs-asdf.html)
+  
 ## Getting Started
-To get started with VersionFox, visit the [official documentation](https://github.com/version-fox/vfox/blob/main/README.md#contributing) for installation instructions and usage details.
+To get started with `vfox`, visit the [official documentation](https://vfox.lhan.me/guides/quick-start.html) for installation instructions and usage details.
 
 ## Contributing
 We welcome contributions! If you'd like to contribute to VersionFox, please check out our [Contribution Guidelines](https://github.com/version-fox/vfox/blob/main/README.md#contributing).

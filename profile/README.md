@@ -2,20 +2,20 @@
 
 Welcome to here!
 
-# VersionFox
+# Introduction
 
-**`vfox` is a cross-platform tool for managing SDK versions, extendable via plugins**. It allows you to quickly install
-and switch between different versions of SDKs using the command line.
+**`vfox` is a cross-platform version manager(similar to `nvm`, `fvm`, `sdkman`, `asdf-vm`, etc.), extendable via plugins**. It allows you to quickly install
+and switch between different environment you need via the command line.
 
-## Why use VersionFox?
+## Why use vfox?
 
-- **cross-platform support** (Windows, Linux, macOS)
-- single CLI for multiple languages
+- **cross-platform support** (**Windows**, Linux, macOS)
 - **consistent commands** to manage all your languages
-- support **Global**、**Project**、**Session** scopes when switching versions
-- simple **plugin system** to add support for your language of choice
+- supports **different versions for different projects, different shells, and globally**.
+- simple **plugin system** to add support for your runtime of choice
 - **automatically switches** runtime versions as you traverse your project
-- shell completion available for common shells (Bash, Zsh, Powershell)
+- support for existing config files `.node-version`, `.nvmrc`, `.sdkmanrc` for easy migration
+- shell completion available for common shells (Bash, ZSH, Powershell, Clink)
 - **it's faster than `asdf-vm`, and offers more simple commands and genuine cross-platform unification.**
   see [Comparison with asdf](https://vfox.lhan.me/misc/vs-asdf.html)
   
